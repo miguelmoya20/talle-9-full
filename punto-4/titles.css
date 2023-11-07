@@ -1,0 +1,13 @@
+h2 {
+    text-align: center;
+}
+
+.titles__azul {
+    color: blue;
+    font-family: "Segoe UI";
+}
+
+.titles__rojo {
+    color: red;
+    font-family: "Segoe UI";
+}
