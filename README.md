@@ -11,7 +11,7 @@
 <a href="https://www.figma.com/file/o5sUgoPwSvU6b82MvF8grk/Miguel-Moya?type=design&node-id=0%3A1&mode=design&t=mfyNDf7j22sfhNwZ-1">Link de Figma</a>
 
 <h2>Punto 2: Diseño en HTML</h2>
-<img src="./public/images/imgProyect.png" alt=""punto 2>
+<img src="./public/images/imgProyect.png" alt="punto 2">
 
 <h2>Punto 3: Diseño con CSS</h2>
 
