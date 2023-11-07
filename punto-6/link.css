@@ -1,0 +1,24 @@
+.bx__general {
+    text-align: center;
+}
+
+h2 {
+    font-size:30px;
+}
+
+#marca__yellow a {
+    color: yellow;
+    font-size: 30px;
+}
+#marca__yellow a:hover {
+    color: rgb(187, 255, 0);
+}
+
+#as__purple a {
+    color: purple;
+    font-size: 30px;
+}
+
+#as__purple a:hover {
+    color: blue;
+}
