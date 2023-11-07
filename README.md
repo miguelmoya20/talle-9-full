@@ -22,7 +22,7 @@
 <img src="./public/images/parrafo.png" alt="punto 5">
 
 <h2>Punto 6: link</h2>
-<img src="public/images/link.png" alt="link">
+<img src="public/images/link.png" alt="punto 6">
 
 <h2>Punto 7 y 8: Navegación</h2>
 
