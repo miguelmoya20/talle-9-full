@@ -1,0 +1,28 @@
+.bx__parrafo {
+    width: 37%;
+}
+
+#text__green {
+    color: green;
+}
+
+#b__red {
+    color: red;
+}
+
+#lines {
+    text-decoration-line: underline overline;
+}
+
+#text__negrita {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#text__azul {
+    color: blue;
+}
+
+#link__rojo {
+  color: red;
+}
