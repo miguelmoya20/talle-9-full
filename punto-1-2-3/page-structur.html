@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Design</title>
-    <link rel="stylesheet" href="page-structur.css">
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="styles/common-styles.css">
+    <link rel="stylesheet" href="styles/header-styles.css">
+    <link rel="stylesheet" href="styles/banner-styles.css">
+    <link rel="stylesheet" href="styles/section-1-styles.css">
+    <link rel="stylesheet" href="styles/section-2-styles.css">
+    <link rel="stylesheet" href="styles/footer-styles.css">
 </head>
 
 <body>
@@ -14,10 +20,12 @@
             <!-- <img src="public/img/header-logo.png" alt=""> -->
             <img src="public/images/header-logo.png" alt="">
             <nav>
+            <ul>
                 <li><a href="#banner">Curso</a></li>
                 <li><a href="#section-1">Participantes</a></li>
                 <li><a href="#section-2">Certificados</a></li>
                 <li><a href="#footer">Ayuda</a></li>
+            </ul>
             </nav>
         </div>
         <div class="header_settings">
@@ -25,8 +33,8 @@
                 <!-- <img src="public/img/header-world.png" alt="header"> -->
                 <img src="public/images/header-world.png" alt="header">
                 <span>Español</span>
-                <button>Ingresar</button>
             </div>
+            <button>Ingresar</button>
         </div>
     </header>
     <main>
@@ -42,139 +50,110 @@
                     </p>
                 </div>
                 <div class="banner_buttons">
-                    <button>Saber más</button>
-                    <button>Planes</button>
+                    <button class="button--orange">Saber más</button>
+                    <button class="button--transparent">Planes</button>
                 </div>
             </div>
             <!-- <img src="public/img/banner-online.png" alt="banner"> -->
             <img src="public/images/banner-online.png" alt="banner">
         </section>
         <section id="section-1">
-        <div class="section-1_info">
-            <h2>Por qué elegirnos a nosotros</h2>
-            <p>
-                Somos una universidad en constante actualización y nos gusta el cambio, 
-                te enseñamos tecnología contemporaneas
-            </p>
-        </div>
-        <div class="section-1__info">
-            <!-- <img src="public/img/section1-education.png"  -->
-            <img src="public/images/section1-education.png" 
-            alt="education"
-            width="120px"
-            height="120px"
-            >
-            <h3>Virtualidad y educacion</h3>
-        </div>
-        <div class="section-1__info">
-            <h3>Alcance de objetivos</h3>
-            <!-- <img src="public/img/section1-goals.png"  -->
-            <img src="public/images/section1-goals.png" 
-            alt="goals"
-            width="120px"
-            height="120px"
-            >
-        </div>
-        <div class="section-1__info">
-            <!-- <img src="public/img/section1-teach.png"  -->
-            <img src="public/images/section1-teach.png" 
-            alt="teach"
-            width="120px"
-            height="120px"
-            >
-            <h3>Clases inclusivas</h3>
-        </div>
+            <div class="section-1__info">
+                <h2>Por qué elegirnos a nosotros</h2>
+                <p>
+                    Somos una universidad en constante actualización y nos gusta el cambio,
+                    te enseñamos tecnología contemporaneas
+                </p>
+            </div>
+            <div class="section-1__card">
+                <img src="public/images/section1-education.png" alt="education" width="120px" height="120px">
+                <h3>Virtualidad y educacion</h3>
+            </div>
+            <div class="section-1__card section-1__card-down ">
+                <h3>Alcance de objetivos</h3>
+                <img src="public/images/section1-goals.png" alt="goals" width="120px" height="120px">
+            </div>
+            <div class="section-1__card">
+                <img src="public/images/section1-teach.png" alt="teach" width="120px" height="120px">
+                <h3>Clases inclusivas</h3>
+            </div>
         </section>
         <section id="section-2">
             <div class="section-2_info">
-            <img 
-            src="public/images/section2-tools.png" 
-            alt="tools"
-            width="500px"
-            height="350px"
-            >
-            <div class="">
-            <h2 class="">Brindamos herramientas para que tu aprendizaje</h2>
-            <h2 class=""> sea efectivo</h2>
-            <p>
-                Las herramientas digitales son nuestras aliadas y aprovechamos
-                 cada una de estas para brindarte la mejor experiencia
-            </p>
-            <button>saber más</button>
-            </div>
+                <img src="public/images/section2-tools.png" alt="tools" width="500px" height="350px">
+                <div class="">
+                    <h2 class="">Brindamos herramientas para que tu aprendizaje</h2>
+                    <h2 class="tetle__pink"> sea efectivo</h2>
+                    <p>
+                        Las herramientas digitales son nuestras aliadas y aprovechamos
+                        cada una de estas para brindarte la mejor experiencia
+                    </p>
+                    <button class="button--orange">saber más</button>
+                </div>
             </div>
             <div class="section-2_info">
-            <div class="">
-                <h2 class="">Educacion pensando en</h2>
-                <h2 class=""> objetivos alcanzados</h2>
-                <p>
-                    Es importante para nosotros que las 
-                    metas de cada uno de nuestros estudiantes 
-                    sean alcanzadas
-                </p>
-                <button>saber más</button>
-            </div>
-            <!-- <img src="public/img/section2-goals.png"  -->
-            <img src="public/images/section2-goals.png" 
-            alt="goals"
-            width="500px"
-            height="350px"
-            >
+                <div class="">
+                    <h2 class="">Educacion pensando en</h2>
+                    <h2 class="tetle__pink"> objetivos alcanzados</h2>
+                    <p>
+                        Es importante para nosotros que las
+                        metas de cada uno de nuestros estudiantes
+                        sean alcanzadas
+                    </p>
+                    <button class="button--orange">saber más</button>
+                </div>
+                <img src="public/images/section2-goals.png" alt="goals" width="500px" height="350px">
             </div>
         </section>
     </main>
     <footer id="footer">
-    <div class="footer__info">
-    <!-- <img src="public/img/footer-logo.png" 
-    alt="logo"
-    width="200px" -->
-    <img src="public/images/footer-logo.png" 
-    alt="logo"
-    width="20px"
-    height="175px"
-    >
-    <p>
-        Unete a nuestra comunidad para recibir
-        informacion actualizada de los cursos y
-        conferencias que ofrecemos
-    </p>
-    <form action="">
-        <input type="email" placeholder="example@correo.com" name="user_email">
-       <button>Subscribirse</button>
-    </form>
-    </div>
-    <div class="footer__list">
-     <table>
-        <thead>
-            <tr>
-                <th>Plataforma</th>
-                <th>Preguntas Frecuentes</th>
-                <th>Contactanos</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><a href="">Planestic</a></td>
-                <td><a href="">¿Como puedo Inscribirme?</a></td>
-                <td><a href="">57 320 8080</a></td>
-            </tr>
-            <tr>
-                <td><a href="">Moodle</a></td>
-                <td><a href="">Como obtengo mis certificado</a></td>
-                <td><a href=""></a>miguelmoyaemail.com</td>
-            </tr>
-            <tr>
-                <td><a href="">Atenea</a></td>
-                <td><a href="">Medio de pago</a></td>
-                <td><a href=""></a>cll 40 #7-19-Bogota</td>
-            </tr>
-            <tr>
-                <td><a href="">Acministración</a></td>
-                <td><a href="">Que comvenios existen?</a></td>
-            </tr>
-        </tbody>
-     </table>
-    </div>
+        <div class="footer__info">
+            <img src="public/images/footer-logo.png"
+             alt="logo" 
+             width="200px" 
+             height="175px">
+            <p>
+                Unete a nuestra comunidad para recibir
+                informacion actualizada de los cursos y
+                conferencias que ofrecemos
+            </p>
+            <form action="">
+                <input type="email" placeholder="example@correo.com" name="user_email">
+                <button>Subscribirse</button>
+            </form>
+        </div>
+        <div class="footer__list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plataforma</th>
+                        <th>Preguntas Frecuentes</th>
+                        <th>Contactanos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="">Planestic</a></td>
+                        <td><a href="">¿Como puedo Inscribirme?</a></td>
+                        <td><a href="">57 320 8080</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Moodle</a></td>
+                        <td><a href="">Como obtengo mis certificado</a></td>
+                        <td><a href="">correo</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Atenea</a></td>
+                        <td><a href="">Medio de pago</a></td>
+                        <td><a href=""></a>cll 40 #7-19-Bogota</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Acministración</a></td>
+                        <td><a href="">Que comvenios existen?</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </footer>
 </body>
 

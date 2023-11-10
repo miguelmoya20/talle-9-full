@@ -1,0 +1,15 @@
+#section-2 {
+background-color: #ec80fd2b;
+padding: 40px 180px;
+}
+
+.section-2_info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+
+.tetle__pink {
+    color: #ED80FD;
+}

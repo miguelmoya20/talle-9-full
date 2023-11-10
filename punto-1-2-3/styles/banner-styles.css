@@ -1,0 +1,28 @@
+#banner {
+    display: flex;
+    margin: 30px 100px;
+    padding: 80px;
+    background: linear-gradient(313deg, #5961F9 0%, #FD909E 100%);
+    border-radius:  48px 48px 300px 48px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Jost';
+    font-size: 55px;
+    line-height: 124%;
+    letter-spacing: -1%;
+}
+
+#banner img {
+    width: 550px;
+    height: 370px ;
+}
+
+.button--transparent {
+background-color: transparent;
+border: 1px solid white;
+color: white;
+margin-left: 8px;
+}
+
