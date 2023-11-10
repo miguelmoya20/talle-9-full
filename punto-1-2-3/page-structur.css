@@ -1,4 +1,4 @@
-/* a {
+a {
     color: indianred;
 }
 
@@ -23,11 +23,12 @@ span {
     background: linear-gradient(#14dcee, #fff);
     color: white;
 }
-#section-2 {
+
+#sectin-2 {
 color: #888;
 }
 
 footer {
     background-color: #333;
     color: #ffffffbb;
-} */
+} 
