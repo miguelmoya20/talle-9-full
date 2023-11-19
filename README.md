@@ -27,5 +27,7 @@
 <img src="public/image/link.png" alt="punto 6">
 
 <h2>Punto 7 y 8: Navegación</h2>
+<img src="public/image/navegacion.png" alt="punto 7 y 8">
 
 <h2>Punto 9: Tabla</h2>
+<img src="public/image/tabla.png" alt="punto 9">
