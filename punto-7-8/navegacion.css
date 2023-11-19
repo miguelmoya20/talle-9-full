@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    height: 38px;
+    width: 20%;
+  }
+
+
+  button:hover {
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-weight: 400px;
+    background-color: blueviolet;
+}
+
+  header {
+    background-color: rgb(52, 75, 180);
+    padding: 20px;
+    text-align: center;
+    height: 40px;
+  }
+
+  header a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
