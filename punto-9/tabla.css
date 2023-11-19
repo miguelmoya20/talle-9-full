@@ -1,0 +1,19 @@
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: deepskyblue;
+   }
+   
+   .tabla th, .tabla td {
+    border: 1px solid #fff;
+    padding: 8px;
+   }
+   
+   .tabla th {
+    background-color: deepskyblue;
+    color: #fff;
+   }
+
+b {
+    font-size: 22px;
+}
